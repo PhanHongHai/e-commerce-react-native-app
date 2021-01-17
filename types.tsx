@@ -4,14 +4,15 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Home: undefined;
+  Notification: undefined;
+  Offer: undefined;
+  Account: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
-};
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
-};
+
+export type IPropsIcon ={
+  name:string;
+  color:string;
+}
